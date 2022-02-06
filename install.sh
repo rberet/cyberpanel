@@ -19,7 +19,7 @@ yum update curl wget ca-certificates -y 1> /dev/null
 elif echo $OUTPUT | grep -q "Ubuntu 18.04" ; then
 apt install -y -qq wget curl
                 SERVER_OS="Ubuntu"
-elif echo $OUTPUT | grep -q "Ubuntu 20.04" ; then
+elif echo $OUTPUT | grep -q "Ubuntu 21.10" ; then
 apt install -y -qq wget curl
                 SERVER_OS="Ubuntu"
 else
